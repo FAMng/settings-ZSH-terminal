@@ -43,9 +43,9 @@
 | Используемые плагины | Источник |
 | ------------- | ------------- |
 | zsh-autosuggestions | ``` git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions ```  |
-| zsh-syntax-highlighting | ``` git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting ```  |
+| zsh-syntax-highlighting | ``` git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete ```  |
+| zsh-autocomplete | ``` git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting ```  |
 | dirhistory | предустановлено |
-| history | предустановлено |
 | npm | предустановлено |
 | nvm | предустановлено |
 

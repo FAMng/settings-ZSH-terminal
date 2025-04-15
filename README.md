@@ -21,6 +21,8 @@
 
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 Перейти в  ``` ~/.zshrc ```, поменять значение параметра  ZSH_THEME на **"powerlevel10k/powerlevel10k"**.
 
 Если при конфигурации не отображаются иконки, то нужно установить шрифт из https://www.nerdfonts.com/font-downloads. К примеру ``` MesloLg Nerd Fonts ```

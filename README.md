@@ -19,9 +19,9 @@
 
 ## Установка фреймворка Oh my zsh   
 
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 Перейти в  ``` ~/.zshrc ```, поменять значение параметра  ZSH_THEME на **"powerlevel10k/powerlevel10k"**.
 
@@ -37,6 +37,8 @@
 После добавления сохранить и перезагрузить ZSH
 
     exec zsh
+
+Запустить ``` p10k configure ``` чтобы сгенерировать новый ``` ~/.p10k.zsh ```.
 
 Пример:
 
